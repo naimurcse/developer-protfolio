@@ -21,6 +21,23 @@ h6 {
     color: #242424;
 }
 
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #525252;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -66,15 +83,7 @@ header {}
 }
 
 .header-content a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px 40px;
-    color: #fff;
-    text-transform: uppercase;
-    border-radius: 6px;
-    font-weight: 500;
     background-image: linear-gradient(45deg, #18d7d4, #3a98f7);
-    font-size: 18px;
 }
 
 .header-image {
@@ -90,3 +99,51 @@ header {}
 
 
 /* Header End */
+
+
+/* Dream Section Start */
+
+.dream {
+    background-image: url("/images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.dream .container {}
+
+.dream-image {
+    float: left;
+    width: 50%;
+}
+
+.dream-image img {
+    width: 100%;
+    padding: 30px;
+    display: block;
+}
+
+.dream-content {
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+    padding-left: 25px;
+}
+
+.dream-content h1 {
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.dream-content h3 {}
+
+.dream-content p {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.dream-content a {
+    background-image: linear-gradient(45deg, #5962de, #7e2fd8);
+}
+
+
+/* Dream Section End */
