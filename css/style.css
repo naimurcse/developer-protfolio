@@ -29,7 +29,12 @@ h6 {
 
 header {}
 
-.top-banner {}
+.top-banner {
+    background-image: url("/images/top-banner.png");
+    background-color: #f8f8f8;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .header-content {
     width: 50%;
@@ -57,7 +62,16 @@ header {}
     margin-bottom: 25px;
 }
 
-.header-content a {}
+.header-content a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #ffa132;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 6px;
+    font-weight: 300;
+}
 
 .header-image {
     width: 50%;
