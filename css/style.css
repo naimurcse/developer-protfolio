@@ -203,3 +203,15 @@ header {}
 
 
 /* Experience Section End */
+
+
+/* Footer Start */
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+
+/* Footer End */
