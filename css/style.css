@@ -109,7 +109,9 @@ header {}
     background-position: center right;
 }
 
-.dream .container {}
+.dream .container {
+    overflow: hidden;
+}
 
 .dream-image {
     float: left;
@@ -151,21 +153,52 @@ header {}
 
 /* Experience Section Start */
 
-.experience {}
+.experience {
+    margin: 100px 0;
+    background-image: url("/images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
 
 .experience .container {}
 
 .experience h2 {}
 
-.experience-cards {}
+.experience-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
 
-.experience-card {}
+.experience-card {
+    width: 47%;
+    padding: 28px;
+    box-shadow: 0px 4px 15px #bbb8b8;
+}
 
-.experience-card h3 {}
+.experience-card h3 {
+    font-size: 28px;
+}
 
-.experience-card h5 {}
+.experience-card h5 {
+    font-size: 17px;
+    color: #ffa132;
+}
 
-.experience-card p {}
+.experience-card p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.experience-card:nth-child(even) {
+    border-left: 7px solid;
+    border-image: linear-gradient( to bottom, #fb6f5b, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.experience-card:nth-child(odd) {
+    border-left: 7px solid;
+    border-image: linear-gradient( to bottom, #389bf5, rgba(0, 0, 0, 0)) 1 100%;
+}
 
 
 /* Experience Section End */
